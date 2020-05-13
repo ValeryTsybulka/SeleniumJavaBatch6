@@ -1,0 +1,142 @@
+[1589331104.261][INFO]: Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 32822
+[1589331104.262][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1589331105.433][INFO]: [9f1a498ae7effbd770508de73aba6b06] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1589331105.439][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1589331105.442][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1589331105.468][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\19292\AppData\Local\Temp\scoped_dir59088_1692460129\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\19292\AppData\Local\Temp\scoped_dir59088_1906596991" data:,
+[1589331107.087][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1589331109.120][INFO]: [9f1a498ae7effbd770508de73aba6b06] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "81.0.4044.122",
+      "chrome": {
+         "chromedriverVersion": "81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776})",
+         "userDataDir": "C:\\Users\\19292\\AppData\\Local\\Temp\\scoped_dir59088_1906596991"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:50233"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "9f1a498ae7effbd770508de73aba6b06"
+}
+[1589331109.232][INFO]: [9f1a498ae7effbd770508de73aba6b06] COMMAND Navigate {
+   "url": "http://166.62.36.207/syntaxpractice/basic-select-dropdown-demo.html"
+}
+[1589331109.232][INFO]: Waiting for pending navigations...
+[1589331109.236][INFO]: Done waiting for pending navigations. Status: ok
+[1589331109.472][INFO]: Waiting for pending navigations...
+[1589331109.658][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589331109.766][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589331109.898][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589331110.008][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589331110.137][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589331110.239][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589331110.342][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589331110.797][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589331111.022][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589331111.170][INFO]: Done waiting for pending navigations. Status: ok
+[1589331111.170][INFO]: [9f1a498ae7effbd770508de73aba6b06] RESPONSE Navigate
+[1589331111.257][INFO]: [9f1a498ae7effbd770508de73aba6b06] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//table[@id='task-tabl']/tbody/tr"
+}
+[1589331111.257][INFO]: Waiting for pending navigations...
+[1589331111.442][INFO]: Done waiting for pending navigations. Status: ok
+[1589331111.535][INFO]: Waiting for pending navigations...
+[1589331111.541][INFO]: Done waiting for pending navigations. Status: ok
+[1589331111.541][INFO]: [9f1a498ae7effbd770508de73aba6b06] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//table[@id='task-tabl']/tbody/tr"}
+  (Session info: chrome=81.0.4044.122)
