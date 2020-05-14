@@ -24,6 +24,14 @@ public static void main(String[] args) {
 	String text=goneText.getText();
 	System.out.println(text);
 	
+	driver.findElement(By.xpath("//button[@onclick='swapCheckbox()']")).click();
+	WebElement itsBack=wait.until(ExpectedConditions.presenceOfElementLocated(By.id("message")));
+
+	System.out.println(itsBack.getText());
+
+	driver.close();
+
+
 	
 }
 }
