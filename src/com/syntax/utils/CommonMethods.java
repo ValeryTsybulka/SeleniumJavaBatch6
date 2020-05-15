@@ -24,7 +24,7 @@ public class CommonMethods extends BaseClass {
 		element.sendKeys(text);
 	}
 
-	/**
+	/**git add
 	 * Method checks if radio/checkbox is enable and clicks it
 	 * 
 	 * @param radioOrCheckbox
