@@ -20,19 +20,15 @@ public class PracticeWithDd extends BaseClass {
 			System.out.println(dd);
 			if(dd.equals("List Box")) {
 				oneDD.click();
-
 			}
 			if(dd.equals("Bootstrap List Box")) {
 				oneDD.click();
 				break;
 			}
 		}
-
 		List<WebElement> listOfDD = driver.findElements(By.tagName("li"));
 		for(WebElement oneItem: listOfDD) {
 			String item = oneItem.getText();
-
-
 			if(item.equals("Morbi leo risus")) {
 				oneItem.click();
 				break;
