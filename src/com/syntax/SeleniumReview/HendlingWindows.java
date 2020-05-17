@@ -21,6 +21,7 @@ public class HendlingWindows {
 
 		Set<String> allWindows = driver.getWindowHandles();
 		Iterator<String> it = allWindows.iterator();
+		//String child=driver.getWindowHandle(); driver.switchTo().window(child);--> 2nd way in this case
 		while (it.hasNext()) {
 			String childWindow = it.next();
 			if (!childWindow.equals(parentWindow)) {
