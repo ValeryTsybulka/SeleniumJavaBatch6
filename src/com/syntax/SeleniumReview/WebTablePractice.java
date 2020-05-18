@@ -28,7 +28,7 @@ public class WebTablePractice {
 				String cellDataText = cellData.getText();
 				//System.out.println(cellDataText);
 				if(j==2) {
-					System.out.println("-->"+cellDataText);
+					System.out.println(cellDataText);
 				}
 			}
 		}
