@@ -14,14 +14,18 @@ public class ExpliciteWaitReview {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.seleniumeasy.com/test/jquery-download-progress-bar-demo.html");
 		driver.manage().window().maximize();
+
 		WebElement startDownload = driver.findElement(By.cssSelector("button[id='downloadButton']"));
 		startDownload.click();
+
 		WebDriverWait wait = new WebDriverWait(driver, 20);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[text()='Complete!']")));
+
 		WebElement completeStatus = driver.findElement(By.xpath("//div[text()='Complete!']"));
 		String comleteStatusText = completeStatus.getText();
 		System.out.println(comleteStatusText);
-		WebElement closeButton=driver.findElement(By.xpath("//button[text()='Close']"));
+		
+		WebElement closeButton = driver.findElement(By.xpath("//button[text()='Close']"));
 		wait.until(ExpectedConditions.elementToBeClickable(closeButton));
 		System.out.println(closeButton.isEnabled());
 		closeButton.click();
